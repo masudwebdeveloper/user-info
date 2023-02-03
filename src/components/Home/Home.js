@@ -51,7 +51,7 @@ const Home = () => {
   }
 
   return (
-    <div className="lg:max-w-[1240px] mx-auto">
+    <div className="lg:max-w-[1240px] mx-auto mt-4 lg:mt-10">
       <Navbar handleSearch={handleSearch}></Navbar>
       <UserList searchName={searchName} filterUsers={filterUsers} users={currentUsers} loading={loading}></UserList>
       <Pagination
